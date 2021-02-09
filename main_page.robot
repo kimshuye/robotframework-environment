@@ -1,9 +1,10 @@
-
+*** Variables ***
+${main page}    ${LOCALTION.baseurl}/index.php
 
 
 *** Test Cases ***
 Search and verify result breadcrumb
-    Open web page http://automationpractice.com/index.php
+    Open web page ${main page}
     # Search for "dress"
     # Remember title of 1st search result item
     # Open 1st search result
