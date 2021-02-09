@@ -44,3 +44,11 @@ robot --variablefile environments/${ENV}.yaml main_page.robot
 
 ```
 
+
+Reference:
+
+
+[Parameterizing Your Robot Framework Tests](https://wonderproxy.com/blog/parameterizing-robot-framework/)
+
+
+
