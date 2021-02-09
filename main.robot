@@ -11,6 +11,6 @@ Search and verify result breadcrumb
     # Verify that the breadcrumb contains the same name as the 1st search result title
  
 *** Keywords ***
-Open web page http://automationpractice.com/index.php
+Open web page ${url}
     [Tags]  not yet ready
-    Log    http://automationpractice.com/index.php
+    Log  ${url}
