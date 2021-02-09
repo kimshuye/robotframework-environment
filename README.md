@@ -33,3 +33,14 @@ robot --variablefile environments/prod.yaml main_page.robot
 
 ```
 
+
+### Set Environment machine
+
+```bash
+export ENV=dev
+export ENV=prod
+
+robot --variablefile environments/${ENV}.yaml main_page.robot
+
+```
+
